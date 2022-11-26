@@ -21,12 +21,12 @@ class CardGame:
   def check_for_ace(self, card):
     if card.value = 1: # Card.value = 1 is an error this should be a double equal for comparison
       return True
-    else # The colon(:) is missing after the else statment
+    else # The colon(:) is missing after the else statement
       return False
 
 
   dif highest_card(self, card1 card2): # Spelling error in function definition should be 'def' Also missing comma between card1 and card2
-  if card1.value > card2.value: #If statement not indented properly, it should be tabbed to the right aalong with any corresponding lines that follow the if
+  if card1.value > card2.value: #If statement not indented properly, it should be tabbed to the right along with any corresponding lines that follow the if
     return card # card is not defined, this should be changed to card1
   else:
     return card2
